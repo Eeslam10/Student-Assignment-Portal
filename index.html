@@ -10,6 +10,22 @@
     <link rel="stylesheet" href="./fa/solid.css">
 </head>
 <body>
-    
-</body>
+    <div class="container">
+        <h1>Student Assignment Portal</h1>
+
+        <div class="countdown-container">
+            <h2>Countdown Timer</h2>
+            <div id="countdown"></div>
+        </div>
+
+        <form id="assignmentForm">
+            <label for="assignmentText">Assignment Text:</label>
+            <textarea id="assignmentText" name="assignmentText" rows="6" required></textarea>
+            <button type="submit">Submit Assignment</button>
+        </form>
+        <div id="confirmationMessage"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>  
 </html>
